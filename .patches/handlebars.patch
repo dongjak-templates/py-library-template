@@ -18,8 +18,8 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/tests/test_core.py b/tests/test_core.py
---- a/tests/test_core.py	(revision 4e3493185e92d4babb6c0220c252f0c758424b4a)
-+++ b/tests/test_core.py	(date 1740698201388)
+--- a/tests/test_core.py	(revision 3016b7cc30df089134baf796871274c1127cf2ef)
++++ b/tests/test_core.py	(date 1740698530211)
 @@ -3,7 +3,7 @@
  """
  
@@ -35,8 +35,8 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/README.md b/README.md
---- a/README.md	(revision 4e3493185e92d4babb6c0220c252f0c758424b4a)
-+++ b/README.md	(date 1740698201377)
+--- a/README.md	(revision 3016b7cc30df089134baf796871274c1127cf2ef)
++++ b/README.md	(date 1740698530228)
 @@ -1,4 +1,4 @@
 -# Simple Math Utils
 +# {{projectName}}
@@ -98,17 +98,20 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/pyproject.toml b/pyproject.toml
---- a/pyproject.toml	(revision 4e3493185e92d4babb6c0220c252f0c758424b4a)
-+++ b/pyproject.toml	(date 1740698201385)
-@@ -3,7 +3,7 @@
+--- a/pyproject.toml	(revision 3016b7cc30df089134baf796871274c1127cf2ef)
++++ b/pyproject.toml	(date 1740698560956)
+@@ -3,9 +3,9 @@
  build-backend = "hatchling.build"
  
  [project]
 -name = "dongjak-math-utils"
 +name = "{{projectName}}"
  version = "0.1.0"
- description = "一个简单的数学工具库"
+-description = "一个简单的数学工具库"
++description = "{{projectDescription}}"
  readme = "README.md"
+ requires-python = ">=3.12"
+ dependencies = []
 @@ -20,8 +20,8 @@
  ]
  
@@ -140,8 +143,8 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/examples/basic_usage.py b/examples/basic_usage.py
---- a/examples/basic_usage.py	(revision 4e3493185e92d4babb6c0220c252f0c758424b4a)
-+++ b/examples/basic_usage.py	(date 1740698201381)
+--- a/examples/basic_usage.py	(revision 3016b7cc30df089134baf796871274c1127cf2ef)
++++ b/examples/basic_usage.py	(date 1740698530205)
 @@ -3,7 +3,7 @@
  """
  
